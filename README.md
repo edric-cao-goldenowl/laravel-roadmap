@@ -1,68 +1,111 @@
-# 🛣️ Laravel Learning Roadmap
+# 🛣️ Laravel Learning Roadmap (With Packages & Docs)
+
+---
 
 ## 🟢 Phase 1: PHP & Web Fundamentals
-> Before learning Laravel, you need a solid foundation in PHP and general web development.
 
-- ✅ HTML, CSS, and basic JavaScript  
-- ✅ Basic PHP (variables, functions, loops, OOP)  
-- ✅ Understanding of HTTP (GET, POST, session, cookie)  
-- ✅ MySQL (SELECT, INSERT, UPDATE, JOIN, Index, etc.)  
-- ✅ Composer – PHP dependency manager  
+> Before Laravel, master core PHP and web basics.
+
+- ✅ [HTML, CSS, JavaScript](https://developer.mozilla.org/en-US/)
+- ✅ [PHP Basics](https://www.php.net/manual/en/index.php)
+- ✅ [HTTP Methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- ✅ [MySQL](https://www.mysql.com/)
+- ✅ [Composer](https://getcomposer.org/)
 
 ---
 
 ## 🟡 Phase 2: Laravel Basics
-> Start learning Laravel once you’re comfortable with PHP.
 
-- ✅ Installing Laravel via Composer  
-- ✅ Laravel folder structure  
-- ✅ Routing  
-- ✅ Controllers – handle business logic  
-- ✅ Views (Blade templates) – display data  
-- ✅ Request & Response  
-- ✅ Migrations & Seeders – manage the database  
-- ✅ Models & Eloquent ORM – interact with the DB easily  
-- ✅ Validation – check user input  
-- ✅ Session & Flash Messages  
+> Start building with Laravel.
+
+- ✅ [Laravel Installation](https://laravel.com/docs/installation)
+- ✅ [Folder Structure](https://laravel.com/docs/structure)
+- ✅ [Routing](https://laravel.com/docs/routing)
+- ✅ [Controllers](https://laravel.com/docs/controllers)
+- ✅ [Blade Templates](https://laravel.com/docs/blade)
+- ✅ [Requests & Responses](https://laravel.com/docs/requests)
+- ✅ [Migrations](https://laravel.com/docs/migrations)
+- ✅ [Eloquent ORM](https://laravel.com/docs/eloquent)
+- ✅ [Validation](https://laravel.com/docs/validation)
+- ✅ [Sessions](https://laravel.com/docs/session)
+
+📦 Useful packages:
+- [`barryvdh/laravel-debugbar`](https://github.com/barryvdh/laravel-debugbar)
+- [`spatie/laravel-permission`](https://github.com/spatie/laravel-permission)
 
 ---
 
 ## 🟠 Phase 3: Intermediate Laravel
-> Learn deeper concepts to build more robust and maintainable applications.
 
-- ✅ Middleware – process logic before/after requests  
-- ✅ Authentication (login, register, password reset)  
-- ✅ Authorization (Gates & Policies)  
-- ✅ Building APIs with Laravel (API routes, Postman testing)  
-- ✅ Laravel Sanctum / Passport for API authentication  
-- ✅ Events & Listeners  
-- ✅ Queues & Jobs – asynchronous processing  
-- ✅ File Storage – image/document uploads  
-- ✅ Image upload, crop, resize with Intervention  
-- ✅ Localization – multi-language support  
+> Level up with core Laravel features.
+
+- ✅ [Middleware](https://laravel.com/docs/middleware)
+- ✅ [Authentication](https://laravel.com/docs/authentication)
+- ✅ [Authorization (Policies & Gates)](https://laravel.com/docs/authorization)
+- ✅ [API Resources](https://laravel.com/docs/eloquent-resources)
+- ✅ [Sanctum](https://laravel.com/docs/sanctum) / [Passport](https://laravel.com/docs/passport)
+- ✅ [Events & Listeners](https://laravel.com/docs/events)
+- ✅ [Queues & Jobs](https://laravel.com/docs/queues)
+- ✅ [File Storage](https://laravel.com/docs/filesystem)
+- ✅ [Localization](https://laravel.com/docs/localization)
+
+📦 Useful packages:
+- [`spatie/laravel-translatable`](https://github.com/spatie/laravel-translatable)
+- [`intervention/image`](https://github.com/Intervention/image)
+- [`fruitcake/laravel-cors`](https://github.com/fruitcake/laravel-cors)
 
 ---
 
 ## 🔵 Phase 4: Advanced Laravel
-> For large-scale or production-ready applications.
 
-- ✅ Service Container & Service Providers  
-- ✅ Repository Pattern – clean, testable code  
-- ✅ Unit Testing with PHPUnit / Feature Testing  
-- ✅ Laravel Livewire / Inertia.js – build SPAs easily  
-- ✅ Laravel Broadcasting (real-time with Pusher)  
-- ✅ Laravel Horizon – queue management  
-- ✅ Laravel Telescope – request debugging and tracking  
-- ✅ Laravel Octane – performance boost  
+> Build production-level apps.
+
+- ✅ [Service Container](https://laravel.com/docs/container)
+- ✅ [Service Providers](https://laravel.com/docs/providers)
+- ✅ [Repository Pattern (custom structure)](https://dev.to/sujaykundu777/repository-design-pattern-in-laravel-4p6b)
+- ✅ [Testing](https://laravel.com/docs/testing)
+- ✅ [Livewire](https://laravel-livewire.com/docs)
+- ✅ [Inertia.js](https://inertiajs.com/)
+- ✅ [Broadcasting](https://laravel.com/docs/broadcasting)
+- ✅ [Laravel Horizon](https://laravel.com/docs/horizon)
+- ✅ [Laravel Telescope](https://laravel.com/docs/telescope)
+- ✅ [Laravel Octane](https://laravel.com/docs/octane)
+
+📦 Useful packages:
+- [`laravel/horizon`](https://github.com/laravel/horizon)
+- [`laravel/telescope`](https://github.com/laravel/telescope)
+- [`livewire/livewire`](https://github.com/livewire/livewire)
+- [`inertiajs/inertia-laravel`](https://github.com/inertiajs/inertia-laravel)
 
 ---
 
-## 🟣 Essential Tools & Environment
+## 🟣 Tools & Environment
 
-- ✅ Git & GitHub/GitLab  
-- ✅ Laravel Valet / Homestead / Sail / XAMPP  
-- ✅ VS Code + Laravel Extensions (Laravel Snippets, Blade Formatter, etc.)  
-- ✅ Postman for API testing  
+- ✅ [Git](https://git-scm.com/)
+- ✅ [Laravel Sail](https://laravel.com/docs/sail)
+- ✅ [Laravel Valet](https://laravel.com/docs/valet)
+- ✅ [Laravel Homestead](https://laravel.com/docs/homestead)
+- ✅ [Postman](https://www.postman.com/)
+
+📦 Dev Helper Packages:
+- [`barryvdh/laravel-ide-helper`](https://github.com/barryvdh/laravel-ide-helper)
+- [`nunomaduro/larastan`](https://github.com/nunomaduro/larastan)
+- [`laravel/pint`](https://github.com/laravel/pint)
+
+---
+
+## 🔥 Suggested Projects
+
+- ✅ Personal blog with login/register  
+- ✅ CRUD-based product inventory system  
+- ✅ RESTful API for mobile app  
+- ✅ Mini clone of Shopee/Facebook  
+- ✅ Admin panel with roles/permissions  
+
+---
+
+Let me know if you'd like this exported as a `.md` file or as a Notion/Cheat Sheet version!
+
 
 ---
 
@@ -166,5 +209,5 @@
 - 🔧 Laravel Debugbar  
 - 🔧 Laravel Telescope  
 - 🔧 Laravel Horizon (queue monitoring)
-  
+
 ## Pratices more in [alexeymezenin/laravel-best-practices](http://github.com/alexeymezenin/laravel-best-practices)
