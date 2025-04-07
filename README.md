@@ -166,3 +166,5 @@
 - 🔧 Laravel Debugbar  
 - 🔧 Laravel Telescope  
 - 🔧 Laravel Horizon (queue monitoring)
+  
+## Pratices more in [alexeymezenin/laravel-best-practices](http://github.com/alexeymezenin/laravel-best-practices)
