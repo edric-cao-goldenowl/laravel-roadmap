@@ -94,23 +94,6 @@
 
 ---
 
-## 🔥 Suggested Projects
-
-- ✅ Personal blog with login/register  
-- ✅ CRUD-based product inventory system  
-- ✅ RESTful API for mobile app  
-- ✅ Mini clone of Shopee/Facebook  
-- ✅ Admin panel with roles/permissions  
-
----
-
-Let me know if you'd like this exported as a `.md` file or as a Notion/Cheat Sheet version!
-
-
----
-
-
-
 # ✅ Laravel Best Practices
 
 ## 1. Project Structure & Organization
